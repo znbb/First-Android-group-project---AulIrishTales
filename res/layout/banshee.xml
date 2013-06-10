@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CREATED BY RACHEL -->
+<!-- IMAGE CREATED BY LAURA -->
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/banshee">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title1_theBanshee"
+            android:id="@+id/bansheeTitle"
+            android:textColor="@color/Green"
+            android:textSize="@dimen/title_size"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="270dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/page"
+            android:id="@+id/banshee_button"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
+    <ScrollView
+            android:layout_width="255dp"
+            android:layout_height="255dp"
+            android:id="@+id/scrollView"
+            android:fillViewport="true"
+            android:layout_below="@+id/bansheeTitle">
+        <TextView
+                android:layout_width="255dp"
+                android:layout_height="255dp"
+                android:text="@string/story1_theBanshee"
+                android:id="@+id/banshee_text"
+                android:textColor="@color/orange"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignLeft="@+id/scrollView"
+                android:layout_below="@+id/bansheeTitle"/>
+    </ScrollView>
+
+</RelativeLayout>
+
+ <!-- CREATED BY RACHEL -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--*****Credit page text size ***********-->
+    <dimen name="credits_size">25dp</dimen>
+    <dimen name="memName_Size">20dp</dimen>
+
+    <!--All dimensions for all pages -->
+    <dimen name="title_size">20dp</dimen>
+    <dimen name="body_size">15dp</dimen>
+
+    <dimen name="question_size">25dp</dimen>
+
+    <dimen name="text_size">20sp</dimen>
+
+</resources>
